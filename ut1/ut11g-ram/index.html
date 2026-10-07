@@ -89,37 +89,13 @@
 <li><strong>Celda</strong>: 1 transistor + 1 condensador por bit. La carga se fuga, así que hay que <strong>refrescarla</strong> periódicamente.</li>
 <li><strong>Ventaja</strong>: celda pequeña → mucha capacidad y <strong>menor coste por bit</strong> que la SRAM. Es la base de la memoria principal.</li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>Tipo</th><th>Idea clave</th><th>Uso</th></tr></thead><tbody><tr><td><strong>SDRAM</strong></td><td>DRAM sincronizada con un reloj</td><td>Base de las siguientes</td></tr><tr><td><strong>DDR</strong></td><td>SDRAM con 2 transferencias por ciclo (ambos flancos)</td><td>RAM de PC (DIMM / SO-DIMM)</td></tr><tr><td><strong>LPDDR</strong></td><td>DDR de bajo consumo</td><td>Móviles y algunos portátiles</td></tr><tr><td><strong>GDDR</strong></td><td>Alto ancho de banda</td><td>Tarjetas gráficas</td></tr></tbody></table>
+<p>Familia de DRAM síncrona:</p>
+<ul>
+<li><strong>SDRAM</strong>: DRAM sincronizada con un reloj; base de las demás.</li>
+<li><strong>DDR</strong>: 2 transferencias por ciclo (ambos flancos); RAM de PC en DIMM / SO-DIMM.</li>
+<li><strong>LPDDR</strong>: DDR de bajo consumo (móviles y portátiles).</li>
+<li><strong>GDDR</strong>: alto ancho de banda (tarjetas gráficas).</li>
+</ul>
 <div class="sl-heading-wrapper level-h4"><h4 id="11-ddr-double-data-rate">1.1. DDR (Double Data Rate)</h4><a class="sl-anchor-link" href="#11-ddr-double-data-rate"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “1.1. DDR (Double Data Rate)”</span></a></div>
 <p>Valores representativos de módulos DIMM de escritorio. El máximo depende también del procesador y la placa base.</p>
 
@@ -244,37 +220,12 @@
 <aside aria-label="¿Por qué no usar SRAM como memoria principal?" class="starlight-aside starlight-aside--tip"><p class="starlight-aside__title" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" class="starlight-aside__icon"><path fill-rule="evenodd" d="M1.44 8.855v-.001l3.527-3.516c.34-.344.802-.541 1.285-.548h6.649l.947-.947c3.07-3.07 6.207-3.072 7.62-2.868a1.821 1.821 0 0 1 1.557 1.557c.204 1.413.203 4.55-2.868 7.62l-.946.946v6.649a1.845 1.845 0 0 1-.549 1.286l-3.516 3.528a1.844 1.844 0 0 1-3.11-.944l-.858-4.275-4.52-4.52-2.31-.463-1.964-.394A1.847 1.847 0 0 1 .98 10.693a1.843 1.843 0 0 1 .46-1.838Zm5.379 2.017-3.873-.776L6.32 6.733h4.638l-4.14 4.14Zm8.403-5.655c2.459-2.46 4.856-2.463 5.89-2.33.134 1.035.13 3.432-2.329 5.891l-6.71 6.71-3.561-3.56 6.71-6.711Zm-1.318 15.837-.776-3.873 4.14-4.14v4.639l-3.364 3.374Z" clip-rule="evenodd"></path><path d="M9.318 18.345a.972.972 0 0 0-1.86-.561c-.482 1.435-1.687 2.204-2.934 2.619a8.22 8.22 0 0 1-1.23.302c.062-.365.157-.79.303-1.229.415-1.247 1.184-2.452 2.62-2.935a.971.971 0 1 0-.62-1.842c-.12.04-.236.084-.35.13-2.02.828-3.012 2.588-3.493 4.033a10.383 10.383 0 0 0-.51 2.845l-.001.016v.063c0 .536.434.972.97.972H2.24a7.21 7.21 0 0 0 .878-.065c.527-.063 1.248-.19 2.02-.447 1.445-.48 3.205-1.472 4.033-3.494a5.828 5.828 0 0 0 .147-.407Z"></path></svg>¿Por qué no usar SRAM como memoria principal?</p><div class="starlight-aside__content"><p>Por su coste y tamaño. Además, ambas son volátiles: para guardar datos de forma persistente se usan SSD y HDD.</p></div></aside>
 <div class="sl-heading-wrapper level-h2"><h2 id="canales">Canales</h2><a class="sl-anchor-link" href="#canales"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Canales”</span></a></div>
 <p>Los <strong>canales</strong> son rutas de datos independientes entre el controlador de memoria y la RAM. Más canales → más ancho de banda teórico (no siempre más rendimiento real).</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>Configuración</th><th align="center">Canales</th><th>Nota</th></tr></thead><tbody><tr><td>Single</td><td align="center">1</td><td>Base</td></tr><tr><td>Dual</td><td align="center">2</td><td>Duplica el ancho de banda teórico</td></tr><tr><td>Triple</td><td align="center">3</td><td>Poco común (p. ej. Intel X58)</td></tr><tr><td>Quad o más</td><td align="center">4+</td><td>Estaciones de trabajo y servidores</td></tr></tbody></table>
+<ul>
+<li><strong>Single</strong> (1 canal): configuración base.</li>
+<li><strong>Dual</strong> (2): duplica el ancho de banda teórico.</li>
+<li><strong>Triple</strong> (3): poco común (p. ej. Intel X58).</li>
+<li><strong>Quad o más</strong> (4+): estaciones de trabajo y servidores.</li>
+</ul>
 <blockquote>
 <p>Los canales dependen de la <strong>plataforma</strong>, no solo de cuántos módulos instales.</p>
 </blockquote>
