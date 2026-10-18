@@ -1,0 +1,1 @@
+var e=e=>document.querySelector(e),t=e=>Array.from(document.querySelectorAll(e)),n={leftSidebarEnabled:!0,rightSidebarEnabled:!0,leftSidebarExpandedWidth:null,rightSidebarExpandedWidth:null,leftSidebarCollapsedWidth:`50px`,rightSidebarCollapsedWidth:`50px`,rotateSidebarToggleWhenClosed:!0,overrideWarnEnabled:!0};export{e as n,t as r,n as t};
